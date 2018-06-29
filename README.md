@@ -7,10 +7,10 @@ This follows the idea that the best documentation is running code.
 Features:
 ---------
 
-- Router handler mapping
-- Router controller annotation mapping
-- A controller
-- Template route
-- JSON route
-- Error handling
-- Module service isolation demo
+[X] Router handler mapping
+[X] Router controller annotation mapping
+[X] A controller
+[ ] Template route
+[X] JSON route
+[ ] Error handling
+[X] Module service isolation
