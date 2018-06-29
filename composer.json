@@ -1,0 +1,15 @@
+{
+    "name": "lipht/sample",
+    "description": "Usage sample",
+    "type": "project",
+    "minimum-stability": "dev",
+    "require": {
+        "lipht/lipht": "dev-master",
+        "lipht/mvc": "dev-master"
+    },
+    "autoload":{
+        "psr-4":{
+            "Sample\\": "src/"
+        }
+    }
+}

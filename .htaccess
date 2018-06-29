@@ -1,0 +1,4 @@
+Options +FollowSymLinks +ExecCGI
+
+RewriteEngine On
+RewriteRule (.*) index.php [QSD,L]

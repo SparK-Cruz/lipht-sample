@@ -1,0 +1,80 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "3f7b018a05b686f16e8566050a2577ab",
+    "packages": [
+        {
+            "name": "lipht/lipht",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lipht/lipht.git",
+                "reference": "7e3dbf66a70d79c12d5df2026ab814590457cf8b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lipht/lipht/zipball/7e3dbf66a70d79c12d5df2026ab814590457cf8b",
+                "reference": "7e3dbf66a70d79c12d5df2026ab814590457cf8b",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Lipht\\": "src/",
+                    "Test\\": "test/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Lipht Framework: Core components",
+            "time": "2018-06-21T16:39:54+00:00"
+        },
+        {
+            "name": "lipht/mvc",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lipht/mvc.git",
+                "reference": "5995dd22e494a90d28c65482bff6f55eb3336351"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lipht/mvc/zipball/5995dd22e494a90d28c65482bff6f55eb3336351",
+                "reference": "5995dd22e494a90d28c65482bff6f55eb3336351",
+                "shasum": ""
+            },
+            "require": {
+                "lipht/lipht": "*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.1"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "Lipht\\Mvc\\": "src/",
+                    "Test\\": "test/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "MVC module for the Lipht Framework",
+            "time": "2018-06-20T14:02:18+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "lipht/lipht": 20,
+        "lipht/mvc": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
