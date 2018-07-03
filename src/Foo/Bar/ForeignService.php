@@ -1,8 +1,8 @@
 <?php
-namespace Sample\Modules\Foo\Bar;
+namespace Sample\Foo\Bar;
 
-use Sample\Modules\HelloService;
-use Sample\Modules\Foo\LocalService;
+use Sample\HelloService;
+use Sample\Foo\LocalService;
 
 class ForeignService {
     private $hello;

@@ -4,9 +4,9 @@ namespace Sample;
 use Lipht\Mvc\Router;
 use Lipht\Mvc\Middleware;
 
-use Sample\Modules\RootModule;
-use Sample\Modules\Foo\Bar\ForeignController;
-use Sample\Modules\Foo\LocalService;
+use Sample\RootModule;
+use Sample\Foo\Bar\ForeignController;
+use Sample\Foo\LocalService;
 
 class Index {
     public static function main() {

@@ -1,8 +1,7 @@
 <?php
-namespace Sample\Modules\Foo;
+namespace Sample\Foo;
 
-use Sample\Modules\HelloService;
-
+use Sample\HelloService;
 
 class LocalService {
     private $hello;

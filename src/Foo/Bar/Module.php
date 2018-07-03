@@ -1,5 +1,5 @@
 <?php
-namespace Sample\Modules\Foo\Bar;
+namespace Sample\Foo\Bar;
 
 use Lipht\Module as BaseModule;
 

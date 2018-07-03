@@ -1,5 +1,5 @@
 <?php
-namespace Sample\Modules;
+namespace Sample;
 
 class HelloService {
     public function sayHello() {
