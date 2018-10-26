@@ -1,3 +1,6 @@
 <?php
 require '../vendor/autoload.php';
-Sample\Index::main();
+
+use Lipht\Mvc\Router;
+
+Sample\Index::main(new Router(__DIR__));

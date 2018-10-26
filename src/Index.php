@@ -9,9 +9,8 @@ use Sample\Foo\Bar\ForeignController;
 use Sample\Foo\LocalService;
 
 class Index {
-    public static function main() {
+    public static function main(Router $router) {
         RootModule::init();
-        $router = new Router(dirname(__DIR__));
 
         $router->mapController(
             ForeignController::class,
